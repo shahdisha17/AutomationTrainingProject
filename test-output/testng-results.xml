@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Cart App Test automtion regression suite" duration-ms="58753" started-at="2021-04-27T17:38:12Z" finished-at="2021-04-27T17:39:11Z">
+    <groups>
+    </groups>
+    <test name="Login page Test" duration-ms="58753" started-at="2021-04-27T17:38:12Z" finished-at="2021-04-27T17:39:11Z">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="setUp" is-config="true" duration-ms="17741" started-at="2021-04-27T17:38:12Z" finished-at="2021-04-27T17:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithNegData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="loginWithNegData" duration-ms="10975" started-at="2021-04-27T17:38:30Z" data-provider="loginNegativeData" finished-at="2021-04-27T17:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@@gtyey.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[teyytety]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNegData -->
+        <test-method status="PASS" signature="loginWithNegData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="loginWithNegData" duration-ms="9198" started-at="2021-04-27T17:38:42Z" data-provider="loginNegativeData" finished-at="2021-04-27T17:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67357635]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNegData -->
+        <test-method status="PASS" signature="loginWithNegData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="loginWithNegData" duration-ms="9251" started-at="2021-04-27T17:38:51Z" data-provider="loginNegativeData" finished-at="2021-04-27T17:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNegData -->
+        <test-method status="PASS" signature="getLoginPageTitleTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="getLoginPageTitleTest" duration-ms="116" started-at="2021-04-27T17:39:01Z" finished-at="2021-04-27T17:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageTitleTest -->
+        <test-method status="PASS" signature="getLoginPageUrlTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="getLoginPageUrlTest" duration-ms="30" started-at="2021-04-27T17:39:01Z" finished-at="2021-04-27T17:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageUrlTest -->
+        <test-method status="PASS" signature="verifyForgotPwdLinkTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="verifyForgotPwdLinkTest" duration-ms="1799" started-at="2021-04-27T17:39:01Z" finished-at="2021-04-27T17:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="loginTest" duration-ms="7354" started-at="2021-04-27T17:39:02Z" finished-at="2021-04-27T17:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@65ef722a]" name="tearDown" is-config="true" duration-ms="1298" started-at="2021-04-27T17:39:10Z" finished-at="2021-04-27T17:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Login page Test -->
+  </suite> <!-- Demo Cart App Test automtion regression suite -->
+</testng-results>
